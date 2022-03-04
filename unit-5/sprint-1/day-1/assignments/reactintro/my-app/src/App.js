@@ -11,9 +11,9 @@ function App() {
         <><div>
             <h1>Mobile Operating</h1>
             <ul>
-                {name.map((e) => (
-                    <li>{e}</li>
-                )
+                {name.map((e) => {
+                   return <li>{e}</li>
+                
 
                 )}
             </ul>
